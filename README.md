@@ -1,5 +1,5 @@
 # CPrec Description
-A simple command-line tool that lists C operators based on the provided input. The program accepts a list of operator symbols as command-line arguments, sorts them by precedence, and outputs them back along with descriptions, \(P\)recedence and \(A\)ssociativity. 
+A simple command-line tool that lists C operators based on the provided input. The program accepts a list of operator symbols as command-line arguments, sorts them by precedence, and outputs them back along with description, \(P\)recedence and \(A\)ssociativity. 
 
 ## Installation (Linux)
 
