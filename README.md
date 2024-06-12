@@ -35,11 +35,13 @@ To compile and run the program:
 
 ## Example usage
 
+- Input:
+
 ```sh
-./c_operators "++" "*" 
+cprec "++" "*" 
 ```
 
-### Output
+- Output:
 
 ```
 High.                           P:   A:
