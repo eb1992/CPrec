@@ -28,29 +28,29 @@ To compile and run the program:
     mv cprec </any/directory/on/PATH/bin>
     ```
 
-#### Usage
+## Usage
 ```sh
   cprec [operator1] [operator2] ... [operatorN]
 ```
 
 ## Example usage
 
-- Input:
+- The input:
 
-```sh
-cprec "++" "*" 
-```
+    ```sh
+    cprec "++" "*" 
+    ```
 
-- Output:
+- Gives the output:
 
-```
-High.                           P:   A:
-++       Postfix increment      2    L-T-R
-++       Prefix increment       3    R-T-L
-*        Dereference            3    R-T-L
-*        Multiplication         3    R-T-L
-Low.
-```
+    ```
+    High.                           P:   A:
+    ++       Postfix increment      2    L-T-R
+    ++       Prefix increment       3    R-T-L
+    *        Dereference            3    R-T-L
+    *        Multiplication         3    R-T-L
+    Low.
+    ```
 
 ## License
 
