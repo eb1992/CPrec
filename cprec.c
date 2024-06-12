@@ -178,10 +178,10 @@ void init_operators(OPERATOR operators[]) {
                  .description = "<=       LTE                    9    L-T-R"};
   operators[26] =
       (OPERATOR){.symbols = ">",
-                 .description = ">=       Greater than           9    L-T-R"};
+                 .description = ">        Greater than           9    L-T-R"};
   operators[27] =
       (OPERATOR){.symbols = ">=",
-                 .description = "==       GTE                    9    L-T-R"};
+                 .description = ">=       GTE                    9    L-T-R"};
   operators[28] =
       (OPERATOR){.symbols = "==",
                  .description = "==       Equal to               10   L-T-R"};
@@ -235,7 +235,7 @@ void init_operators(OPERATOR operators[]) {
                  .description = ">>=      Assignment right shift 17   R-T-L"};
   operators[45] =
       (OPERATOR){.symbols = "&=",
-                 .description = ">>=      Assignment bitwise AND 17   R-T-L"};
+                 .description = "&=       Assignment bitwise AND 17   R-T-L"};
   operators[46] =
       (OPERATOR){.symbols = "^=",
                  .description = "^=       Assignment bitwise XOR 17   R-T-L"};
