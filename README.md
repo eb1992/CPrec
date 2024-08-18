@@ -19,7 +19,8 @@ This compiles the program at moves it to `$HOME/.local/bin/`. Make sure this dir
     ```
 
 2. **Move the executable:**
-Then move the executable to a directory it can be run from.
+
+Move the executable to a directory it can be run from.
 
 ## Usage
 ```sh
